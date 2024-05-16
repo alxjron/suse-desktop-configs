@@ -14,18 +14,18 @@ xfconf-query -c xfce4-terminal -pn /color-foreground -t "string" -s "#ebdbb2"
 
 # WM settings
 xfconf-query -c xfwm4 -pn /general/theme -t "string" -s "Gruvbox-Material-Dark-HIDPI"
-xfconf-query -c xfce4-keyboard-shortcuts -pn "/xfwm4/custom/&lt;Alt&gt;c" -t "string" -s "close_window_key"
+xfconf-query -c xfce4-keyboard-shortcuts -pn "/xfwm4/custom/<Alt>c" -t "string" -s "close_window_key"
 
-xfconf-query -c xfce4-keyboard-shortcuts -pn "/xfwm4/custom/&lt;Alt&gt;bracketleft" -t "string" -s "tile_left_key"
-xfconf-query -c xfce4-keyboard-shortcuts -pn "/xfwm4/custom/&lt;Alt&gt;bracketright" -n -t "string" -s "tile_right_key"
-xfconf-query -c xfce4-keyboard-shortcuts -pn "/xfwm4/custom/&lt;Alt&gt;minus" -t "string" -s "tile_up_key"
-xfconf-query -c xfce4-keyboard-shortcuts -pn "/xfwm4/custom/&lt;Alt&gt;equal" -t "string" -s "tile_down_key"
+xfconf-query -c xfce4-keyboard-shortcuts -pn "/xfwm4/custom/<Alt>bracketleft" -t "string" -s "tile_left_key"
+xfconf-query -c xfce4-keyboard-shortcuts -pn "/xfwm4/custom/<Alt>bracketright" -n -t "string" -s "tile_right_key"
+xfconf-query -c xfce4-keyboard-shortcuts -pn "/xfwm4/custom/<Alt>minus" -t "string" -s "tile_up_key"
+xfconf-query -c xfce4-keyboard-shortcuts -pn "/xfwm4/custom/<Alt>equal" -t "string" -s "tile_down_key"
 
-xfconf-query -c xfce4-keyboard-shortcuts -pn "/xfwm4/custom/&lt;Alt&gt;f" -t "string" -s "fullscreen_key"
-xfconf-query -c xfce4-keyboard-shortcuts -pn "/xfwm4/custom/&lt;Shift&gt;&lt;Alt&gt;m" -t "string" -s "maximize_window_key"
+xfconf-query -c xfce4-keyboard-shortcuts -pn "/xfwm4/custom/<Alt>f" -t "string" -s "fullscreen_key"
+xfconf-query -c xfce4-keyboard-shortcuts -pn "/xfwm4/custom/<Shift><Alt>m" -t "string" -s "maximize_window_key"
 
-xfconf-query -c xfce4-keyboard-shortcuts -pn "/xfwm4/custom/&lt;Shift&gt;&lt;Alt&gt;Left" -t "string" -s "move_window_left_workspace_key"
-xfconf-query -c xfce4-keyboard-shortcuts -pn "/xfwm4/custom/&lt;Shift&gt;&lt;Alt&gt;Right" -t "string" -s "move_window_right_workspace_key"
+xfconf-query -c xfce4-keyboard-shortcuts -pn "/xfwm4/custom/<Shift><Alt>Left" -t "string" -s "move_window_left_workspace_key"
+xfconf-query -c xfce4-keyboard-shortcuts -pn "/xfwm4/custom/<Shift><Alt>Right" -t "string" -s "move_window_right_workspace_key"
 
-xfconf-query -c xfce4-keyboard-shortcuts -pn "/xfwm4/custom/&lt;Primary&gt;&lt;Alt&gt;Left" -t "string" -s "left_workspace_key"
-xfconf-query -c xfce4-keyboard-shortcuts -pn "/xfwm4/custom/&lt;Primary&gt;&lt;Alt&gt;Right" -t "string" -s "right_workspace_key"
+xfconf-query -c xfce4-keyboard-shortcuts -pn "/xfwm4/custom/<Primary><Alt>Left" -t "string" -s "left_workspace_key"
+xfconf-query -c xfce4-keyboard-shortcuts -pn "/xfwm4/custom/<Primary><Alt>Right" -t "string" -s "right_workspace_key"
