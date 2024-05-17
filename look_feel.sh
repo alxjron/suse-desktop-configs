@@ -8,9 +8,7 @@ xfconf-query -c xsettings -pn /Net/ThemeName -t "string" -s "Gruvbox-Material-Da
 xfconf-query -c xsettings -pn /Net/IconThemeName -t "string" -s "Obsidian-Red"
 
 # Terminal theming
-xfconf-query -c xfce4-terminal -pn /color-palette -t "string" -s "#282828;#cc241d;#98971a;#d79921;#458588;#b16286;#689d6a;#a89984;#928374;#fb4934;#b8bb26;#fabd2f;#83a598;#d3869b;#8ec07c;#ebdbb2"
-xfconf-query -c xfce4-terminal -pn /color-background -t "string" -s "#1d2021"
-xfconf-query -c xfce4-terminal -pn /color-foreground -t "string" -s "#ebdbb2"
+xfconf-query -c xfce4-terminal -pn /color-use-theme -t "bool" -s "true"
 
 # WM settings
 xfconf-query -c xfwm4 -pn /general/theme -t "string" -s "Gruvbox-Material-Dark-HIDPI"
