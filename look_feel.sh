@@ -2,12 +2,16 @@
 
 sudo cp -R icons /usr/share/
 sudo cp -R themes /usr/share/
+sudo cp -R wallpapers /usr/share/
 
 # Theming
+xfconf-query --channel xfce4-desktop --list | grep last-image | xargs xfconf-query -c xfce4-desktop -s /usr/share/red-trees.jpg -p
+
 xfconf-query -c xsettings -pn /Net/ThemeName -t "string" -s "Gruvbox-Material-Dark"
 xfconf-query -c xsettings -pn /Net/IconThemeName -t "string" -s "Obsidian-Red"
 
 # Terminal theming
+# Doesn't work for some reason
 xfconf-query -c xfce4-terminal -pn /color-use-theme -t "bool" -s "true"
 
 # WM settings
