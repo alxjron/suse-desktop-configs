@@ -5,7 +5,7 @@ sudo cp -R themes /usr/share/
 sudo cp -R wallpapers /usr/share/
 
 # Theming
-xfconf-query --channel xfce4-desktop --list | grep last-image | xargs xfconf-query -c xfce4-desktop -s /usr/share/red-trees.jpg -p
+xfconf-query --channel xfce4-desktop --list | grep last-image | xargs xfconf-query -c xfce4-desktop -s /usr/share/wallpapers/red-trees.jpg -p
 
 xfconf-query -c xsettings -pn /Net/ThemeName -t "string" -s "Gruvbox-Material-Dark"
 xfconf-query -c xsettings -pn /Net/IconThemeName -t "string" -s "Obsidian-Red"
